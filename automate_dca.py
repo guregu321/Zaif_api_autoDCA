@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
 import hashlib
 import hmac
 import json
 import time
+import datetime
 import urllib
 import requests
 
@@ -156,6 +157,8 @@ api = zaif(api_key, api_secret)
 # In[ ]:
 
 
+print("Job starting at {}".format(datetime.datetime.now()))
+
 ##### Cancel all orders #####
 api.cancel_all_orders()
 print("All orders cancelled")
@@ -207,9 +210,3 @@ print("Order fulfilled")
 
 # balance_amount, balance_available = api.my_balance("jpy")
 # display(balance_amount, balance_available)
-
-# In[ ]:
-
-
-
-
