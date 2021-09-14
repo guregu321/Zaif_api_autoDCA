@@ -1,0 +1,3 @@
+[submodule "Zaif_api"]
+	path = Zaif_api
+	url = git@github.com:guregu321/Zaif_api.git
