@@ -80,9 +80,9 @@ print("Order fulfilled")
 
 
 # # テスト用
-api.cancel_all_orders()balance_amount, balance_available = api.my_balance("jpy")
-display(balance_amount, balance_available)test = {'success': 0, 'error': 'unknown error'}
-print(test['success'])
+# api.cancel_all_orders()balance_amount, balance_available = api.my_balance("jpy")
+# display(balance_amount, balance_available)test = {'success': 0, 'error': 'unknown error'}
+# print(test['success'])
 
 # In[ ]:
 
